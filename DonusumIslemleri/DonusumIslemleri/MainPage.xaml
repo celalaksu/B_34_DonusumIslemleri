@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DonusumIslemleri.MainPage">
+
+    <StackLayout>
+        <Button x:Name="translationPage" Text="Translation Örneği" Clicked="translationPage_Clicked"/>
+        <Button x:Name="textEffectsPage" Text="Text Effect Örneği" Clicked="textEffectsPage_Clicked"/>
+        <Button x:Name="depthPage" Text="Depth Örneği" Clicked="depthPage_Clicked"/>
+        <Button x:Name="scalePage" Text="Scale Örneği" Clicked="scalePage_Clicked"/>
+        <Button x:Name="rotationPage" Text="Rotation Örneği" Clicked="rotationPage_Clicked"/>
+        
+    </StackLayout>
+
+</ContentPage>
